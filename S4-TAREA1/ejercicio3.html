@@ -1,0 +1,31 @@
+<!--Josias Alvarado Vargas-->
+<!--Ingeniería de Software "A2"-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<body>
+    <h1>Conversor de nota numérica a letra con validaciones</h1>
+    <div>
+        <li> 90 a 100 : A</li>
+        <li> 80 a 89 : B </li>
+        <li> 70 a 79 : C </li>
+        <li> 60 a 69 : D </li>
+        <li> Menor a 60 : F </li>
+        <li> Si la nota esta fuera de ese rango, muestra "Nota Invalida"</li>
+    </div>
+    <br>
+    <label>Ingrese una nota (0-100):</label>
+    <input type="number" id="nota" min="0" max="100" placeholder="Ingrese un número">
+    <br><br>
+    <button onclick="Ejercicio3()">Enviar</button>
+    <br><br>
+    <label id="respuesta">Resultado:</label>
+    <p id="mensaje"></p>
+    <script src="codigo.js"></script>
+</body>
+</html>
