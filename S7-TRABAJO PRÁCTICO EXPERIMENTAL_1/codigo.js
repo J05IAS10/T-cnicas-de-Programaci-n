@@ -1,3 +1,6 @@
+//J0SIAS JEREMY ALVARADO VARGAS//
+//INGENIERÍA DE SOFTWARE A2//
+
 function ParImpar() {
     let num = parseInt(document.getElementById('numero').value);
     let resultado = document.getElementById('resultado');
